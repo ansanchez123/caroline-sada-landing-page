@@ -126,7 +126,9 @@ nav ul li a {
     background-color: #ffffff; /* Fondo blanco para el contenedor principal */
     border-radius: 10px;
 }
-
+.benefits-text h1{
+    background-color: #ffff;
+}
 /* Columna izquierda */
 .benefits-left {
    background-color: #007bff; /* Azul para el fondo de la izquierda */

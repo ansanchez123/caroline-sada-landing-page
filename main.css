@@ -157,7 +157,7 @@ nav ul li a {
         }
 
         .left-column {
-            background-color: #2049FF;
+            background-color: #2746f9;
             padding: 40px;
             flex: 1;
             color: white;
@@ -192,7 +192,7 @@ nav ul li a {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #f0f8ff;
+            background-color: #ffffff;
         }
 
         .right-column img {

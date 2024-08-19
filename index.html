@@ -1,145 +1,54 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caroline Sada - Landing Page</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f7fa;
-            color: #333;
-        }
-
-        .header {
-            background-color: #0061f2;
-            color: white;
-            padding: 15px 0;
-        }
-
-        .header .navbar-brand {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #fff;
-        }
-
-        .header .navbar-nav .nav-link {
-            color: #fff;
-            margin-right: 20px;
-        }
-
-        .hero-section {
-            background-color: #0061f2;
-            color: white;
-            padding: 50px 0;
-            display: flex;
-            align-items: center;
-        }
-
-        .hero-section .hero-text {
-            max-width: 500px;
-        }
-
-        .hero-section .hero-text h1 {
-            font-size: 2.5rem;
-            font-weight: bold;
-        }
-
-        .hero-section .hero-text p {
-            font-size: 1.1rem;
-            margin-top: 20px;
-            margin-bottom: 30px;
-        }
-
-        .hero-section .hero-form {
-            margin-top: 30px;
-        }
-
-        .hero-section .hero-form input {
-            margin-bottom: 15px;
-        }
-
-        .hero-section .hero-image {
-            max-width: 50%;
-            margin-left: auto;
-            display: flex;
-            justify-content: center;
-        }
-
-        .hero-section .hero-image img {
-            width: 100%;
-            max-width: 350px;
-            border-radius: 10px;
-        }
-
-        .social-icons {
-            margin-top: 30px;
-        }
-
-        .social-icons a {
-            margin: 0 10px;
-            color: #fff;
-            font-size: 1.2rem;
-        }
-    </style>
+    <title>Caroline Sada - Financial Influencer</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg header">
-        <div class="container">
-            <a class="navbar-brand" href="#">Caroline Sada</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Content</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <header>
+        <div class="logo">
+            <img src="caroline-sada-landing-page/images/logo.svg/50" alt="Caroline Sada Logo">
+            <h1>Caroline Sada</h1>
         </div>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Content</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button>🔍</button>
+        </div>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="hero-section container">
-        <div class="row align-items-center">
-            <div class="col-md-6 hero-text">
-                <h1>Transforma tus finanzas con Caroline Sada</h1>
-                <p>Descubre cómo alcanzar la libertad financiera con el curso digital diseñado por Caroline Sada, la influencer financiera que ha ayudado a miles a tomar control de su futuro económico.</p>
-                <div class="hero-form">
-                    <form>
-                        <input type="text" class="form-control" placeholder="Nombre completo" required>
-                        <input type="email" class="form-control" placeholder="Correo electrónico" required>
-                        <button type="submit" class="btn btn-primary w-100">Recibir más información</button>
-                    </form>
-                    <div class="social-icons text-center mt-3">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 hero-image">
-                <img src="caroline-sada-landing-page/images/mujer-finanzas.svg" alt="Caroline Sada">
-            </div>
+    <section class="hero">
+        <div class="hero-image">
+            <img src="caroline-sada-landing-page/images/mujer-finanzas.svg/400x400" alt="Caroline Sada">
+        </div>
+        <div class="hero-text">
+            <h2>Transforma tus finanzas con Caroline Sada</h2>
+            <p>Descubre cómo alcanzar la libertad financiera con el curso digital diseñado por Caroline Sada, la influencer financiera que ha ayudado a miles a tomar control de su futuro económico.</p>
+            <form>
+                <input type="text" placeholder="Nombre completo">
+                <input type="email" placeholder="Correo electrónico">
+                <button>Recibir más información</button>
+            </form>
         </div>
     </section>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <footer>
+        <div class="social-icons">
+            <a href="#"> <img src="caroline-sada-landing-page/images/facebook.svg" alt="Facebook">🔗</a>
+            <a href="#"> <img src="caroline-sada-landing-page/images/twitter.svg" alt="Twitter">🔗</a>
+            <a href="#"><img src="caroline-sada-landing-page/images/instagram.svg" alt="Instagram">🔗</a>
+        </div>
+    </footer>
 </body>
 </html>
+
 

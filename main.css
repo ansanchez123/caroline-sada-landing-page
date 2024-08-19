@@ -146,54 +146,59 @@ nav ul li a {
 
 
 /* Contenedor principal de beneficios */
-.benefits-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background-color: #ffffff;
-    border-radius: 0 0 50px 0;
-}
 
-.left-column {
-    width: 50%;
-    color: white;
-}
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: white;
+            border-radius: 20px;
+            overflow: hidden;
+        }
 
-.left-column h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
+        .left-column {
+            background-color: #2049FF;
+            padding: 40px;
+            flex: 1;
+            color: white;
+            border-top-right-radius: 100px;
+        }
 
-.benefit-box {
-    background-color: white;
-    color: #4a4aff;
-    border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
+        .left-column h1 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
 
-.benefit-box h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
+        .benefit-box {
+            background-color: white;
+            color: #2049FF;
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
 
-.benefit-box p {
-    font-size: 1em;
-    margin: 0;
-}
+        .benefit-box h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
 
-.right-column {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        .benefit-box p {
+            font-size: 16px;
+            margin: 0;
+        }
 
-.right-column img {
-    max-width: 100%;
-    height: auto;
-}
+        .right-column {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f8ff;
+        }
+
+        .right-column img {
+            max-width: 100%;
+            height: auto;
+        }
 
 
 /* Estilos para la sección de testimonios */

@@ -122,33 +122,33 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor principal */
+    border-radius: 10px;
 }
 
 /* Columna izquierda */
 .benefits-left {
     background-color: #00264D; /* Azul oscuro */
     padding: 20px;
-    border-radius: 10px;
-    width: 45%;
+    border-radius: 10px 10px 0 0; /* Esquina superior derecha redondeada */
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
 }
 
 /* Cajas de beneficios */
 .benefit-box {
     background-color: #ffffff; /* Fondo blanco */
-    padding: 20px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 5px; /* Esquinas redondeadas para las cajas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    text-align: left;
 }
 
 .benefit-box h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
     color: #00264D; /* Color azul oscuro para el texto */
 }
 
@@ -168,7 +168,6 @@ nav ul li a {
     max-width: 100%;
     height: auto;
 }
-
 /* Estilos para la sección de testimonios */
 .testimonials {
     position: relative;

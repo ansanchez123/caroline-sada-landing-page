@@ -1,6 +1,7 @@
 /* Estilos para el header */
 header {
     display: flex;
+    font: Montserrat;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
@@ -34,6 +35,7 @@ nav ul li a {
     color: #2746f9;
     text-decoration: none;
     font-weight: bold;
+    font: Montserrat;
 }
 
 .search {
@@ -55,6 +57,7 @@ nav ul li a {
     background-color: #ffffff;
     color: #0033cc;
     cursor: pointer;
+    font: Montserrat;
 }
 /* Estilos para la sección del héroe */
 .hero {
@@ -62,7 +65,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 40px 20px;
-    background-color: #001f8e;
+    background-color: #ffffff;
     color: #ffffff;
 }
 
@@ -80,9 +83,11 @@ nav ul li a {
     flex: 1;
     max-width: 500px;
     margin-left: 20px;
+    font: Montserrat;
 }
 
 .hero-text h2 {
+    font: Montserrat;
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -90,11 +95,13 @@ nav ul li a {
 .hero-text p {
     font-size: 1.2rem;
     margin-bottom: 20px;
+    font: Montserrat;
 }
 
 .hero-text form {
     display: flex;
     flex-direction: column;
+    font: Montserrat;
 }
 
 .hero-text form input {
@@ -112,6 +119,7 @@ nav ul li a {
     color: #ffffff;
     cursor: pointer;
     font-weight: bold;
+    font: Montserrat;
 }
 
 .hero-text form button:hover {

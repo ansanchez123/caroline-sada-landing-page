@@ -147,7 +147,7 @@ nav ul li a {
 
 /* Contenedor principal de beneficios */
 
-        .container {
+         .container {
             display: flex;
             max-width: 1200px;
             margin: 50px auto;
@@ -157,16 +157,26 @@ nav ul li a {
         }
 
         .left-column {
-            background-color: #2746f9;
+            background-color: #2049FF;
             padding: 40px;
             flex: 1;
             color: white;
             border-top-right-radius: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .left-column h1 {
             font-size: 36px;
             margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .benefits {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
         }
 
         .benefit-box {
@@ -174,7 +184,7 @@ nav ul li a {
             color: #2049FF;
             border-radius: 20px;
             padding: 20px;
-            margin-bottom: 20px;
+            text-align: center;
         }
 
         .benefit-box h2 {
@@ -192,14 +202,13 @@ nav ul li a {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #ffffff;
+            background-color: #f0f8ff;
         }
 
         .right-column img {
-            max-width: 100%;
+            max-width: 80%;
             height: auto;
         }
-
 
 /* Estilos para la sección de testimonios */
 .testimonials {

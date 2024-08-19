@@ -9,7 +9,12 @@ header {
     color: #2746f9; /* Color del texto */
 }
 body {
+
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+
 }
 
 /* Estilo global para todos los textos */
@@ -293,4 +298,83 @@ nav ul li a {
 .subscription-right img {
     max-width: 100%;
     height: auto;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-column {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-column {
+    width: 45%;
+    background-color: #0066ff;
+    border-bottom-left-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+}
+
+.right-column h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.right-column h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.right-column h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.right-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.right-column form button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #0066ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-column .social-icons {
+    margin-top: 20px;
+}
+
+.right-column .social-icons a {
+    margin-right: 15px;
+}
+
+.right-column .social-icons img {
+    width: 30px;
+    height: 30px;
 }

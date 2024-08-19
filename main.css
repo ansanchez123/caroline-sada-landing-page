@@ -117,51 +117,58 @@ nav ul li a {
 .hero-text form button:hover {
     background-color: #ff0044;
 }
-/* Estilos para la sección de beneficios */
-.benefits {
+/* Contenedor principal de beneficios */
+.benefits-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 20px;
-    background-color: #007bff; /* Azul */
-    color: #ffffff;
+    margin: 50px 0;
 }
 
-.benefits-text {
-    flex: 1;
-    max-width: 500px;
-}
-
-.benefits-text h3 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-}
-
-.benefits-text ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.benefits-text ul li {
-    background-color: #ffffff;
-    color: #007bff;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.benefits-image {
-    flex: 1;
+/* Columna izquierda */
+.benefits-left {
+    background-color: #00264D; /* Azul oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.benefits-image img {
-    width: 100%;
-    max-width: 300px;
+/* Cajas de beneficios */
+.benefit-box {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: left;
+}
+
+.benefit-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #00264D; /* Color azul oscuro para el texto */
+}
+
+.benefit-box p {
+    font-size: 1rem;
+    margin: 0;
+    color: #333333; /* Texto en gris oscuro */
+}
+
+/* Columna derecha */
+.benefits-right {
+    width: 45%;
+    text-align: center;
+}
+
+.benefits-right img {
+    max-width: 100%;
     height: auto;
 }
+
 /* Estilos para la sección de testimonios */
 .testimonials {
     position: relative;

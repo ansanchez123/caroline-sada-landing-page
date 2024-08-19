@@ -76,7 +76,6 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10px;
     background-color: #ffffff;
     color: #2746f9;
 }

@@ -90,11 +90,11 @@ nav ul li a {
     flex: 1;
     max-width: 500px;
     margin-left: 20px;
-    font: Montserrat;
+    
 }
 
 .hero-text h2 {
-    font: Montserrat;
+    
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -102,13 +102,13 @@ nav ul li a {
 .hero-text p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    font: Montserrat;
+   
 }
 
 .hero-text form {
     display: flex;
     flex-direction: column;
-    font: Montserrat;
+    f
 }
 
 .hero-text form input {
@@ -123,10 +123,10 @@ nav ul li a {
     border: none;
     border-radius: 5px;
     background-color: #2746f9;
-    color: #ffffff;
+    color: #2746f9;
     cursor: pointer;
     font-weight: bold;
-    font: Montserrat;
+    
 }
 
 .hero-text form button:hover {
